@@ -7,20 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		246836AD1BC8054C0088C7A4 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246836AC1BC8054C0088C7A4 /* HomeTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		246836B11BC8056F0088C7A4 /* MessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246836B01BC8056F0088C7A4 /* MessageTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		246836B31BC8057B0088C7A4 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246836B21BC8057B0088C7A4 /* ProfileTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		246836B51BC8058B0088C7A4 /* DiscoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246836B41BC8058B0088C7A4 /* DiscoverTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		246836B71BC8064F0088C7A4 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246836B61BC8064F0088C7A4 /* MainTabBarController.swift */; settings = {ASSET_TAGS = (); }; };
+		2480BBFE1BC819980028FBCA /* TSZTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2480BBFD1BC819980028FBCA /* TSZTabBar.swift */; settings = {ASSET_TAGS = (); }; };
 		24EB704B1BC708FE003E695B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EB704A1BC708FE003E695B /* AppDelegate.swift */; };
-		24EB704D1BC708FE003E695B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EB704C1BC708FE003E695B /* ViewController.swift */; };
-		24EB70501BC708FE003E695B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24EB704E1BC708FE003E695B /* Main.storyboard */; };
 		24EB70521BC708FE003E695B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24EB70511BC708FE003E695B /* Assets.xcassets */; };
-		24EB70551BC708FE003E695B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24EB70531BC708FE003E695B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		246836AC1BC8054C0088C7A4 /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		246836B01BC8056F0088C7A4 /* MessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageTableViewController.swift; sourceTree = "<group>"; };
+		246836B21BC8057B0088C7A4 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		246836B41BC8058B0088C7A4 /* DiscoverTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverTableViewController.swift; sourceTree = "<group>"; };
+		246836B61BC8064F0088C7A4 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		2480BBFD1BC819980028FBCA /* TSZTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSZTabBar.swift; sourceTree = "<group>"; };
 		24EB70471BC708FE003E695B /* 天下微博.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "天下微博.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24EB704A1BC708FE003E695B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		24EB704C1BC708FE003E695B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		24EB704F1BC708FE003E695B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24EB70511BC708FE003E695B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		24EB70541BC708FE003E695B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24EB70561BC708FE003E695B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -35,6 +41,99 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		246836A21BC801F90088C7A4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				246836A31BC801F90088C7A4 /* FuncModule(功能模块) */,
+				246836A91BC801F90088C7A4 /* Model(数据模型) */,
+				246836AA1BC801F90088C7A4 /* Other(其他) */,
+				246836AB1BC801F90088C7A4 /* Tools(工具) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		246836A31BC801F90088C7A4 /* FuncModule(功能模块) */ = {
+			isa = PBXGroup;
+			children = (
+				246836A41BC801F90088C7A4 /* Discover(发现) */,
+				246836A51BC801F90088C7A4 /* Home(主页) */,
+				246836A61BC801F90088C7A4 /* Main(主框架) */,
+				246836A71BC801F90088C7A4 /* Message(消息) */,
+				246836A81BC801F90088C7A4 /* Profile(个人简介) */,
+			);
+			path = "FuncModule(功能模块)";
+			sourceTree = "<group>";
+		};
+		246836A41BC801F90088C7A4 /* Discover(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				246836B41BC8058B0088C7A4 /* DiscoverTableViewController.swift */,
+			);
+			path = "Discover(发现)";
+			sourceTree = "<group>";
+		};
+		246836A51BC801F90088C7A4 /* Home(主页) */ = {
+			isa = PBXGroup;
+			children = (
+				246836AC1BC8054C0088C7A4 /* HomeTableViewController.swift */,
+			);
+			path = "Home(主页)";
+			sourceTree = "<group>";
+		};
+		246836A61BC801F90088C7A4 /* Main(主框架) */ = {
+			isa = PBXGroup;
+			children = (
+				2480BBFC1BC818110028FBCA /* Views */,
+				246836B61BC8064F0088C7A4 /* MainTabBarController.swift */,
+			);
+			path = "Main(主框架)";
+			sourceTree = "<group>";
+		};
+		246836A71BC801F90088C7A4 /* Message(消息) */ = {
+			isa = PBXGroup;
+			children = (
+				246836B01BC8056F0088C7A4 /* MessageTableViewController.swift */,
+			);
+			path = "Message(消息)";
+			sourceTree = "<group>";
+		};
+		246836A81BC801F90088C7A4 /* Profile(个人简介) */ = {
+			isa = PBXGroup;
+			children = (
+				246836B21BC8057B0088C7A4 /* ProfileTableViewController.swift */,
+			);
+			path = "Profile(个人简介)";
+			sourceTree = "<group>";
+		};
+		246836A91BC801F90088C7A4 /* Model(数据模型) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model(数据模型)";
+			sourceTree = "<group>";
+		};
+		246836AA1BC801F90088C7A4 /* Other(其他) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Other(其他)";
+			sourceTree = "<group>";
+		};
+		246836AB1BC801F90088C7A4 /* Tools(工具) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Tools(工具)";
+			sourceTree = "<group>";
+		};
+		2480BBFC1BC818110028FBCA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2480BBFD1BC819980028FBCA /* TSZTabBar.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		24EB703E1BC708FE003E695B = {
 			isa = PBXGroup;
 			children = (
@@ -54,11 +153,9 @@
 		24EB70491BC708FE003E695B /* 天下微博 */ = {
 			isa = PBXGroup;
 			children = (
+				246836A21BC801F90088C7A4 /* Classes */,
 				24EB704A1BC708FE003E695B /* AppDelegate.swift */,
-				24EB704C1BC708FE003E695B /* ViewController.swift */,
-				24EB704E1BC708FE003E695B /* Main.storyboard */,
 				24EB70511BC708FE003E695B /* Assets.xcassets */,
-				24EB70531BC708FE003E695B /* LaunchScreen.storyboard */,
 				24EB70561BC708FE003E695B /* Info.plist */,
 			);
 			path = "天下微博";
@@ -90,6 +187,7 @@
 		24EB703F1BC708FE003E695B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TSZ;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Tsz;
 				TargetAttributes = {
@@ -121,9 +219,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24EB70551BC708FE003E695B /* LaunchScreen.storyboard in Resources */,
 				24EB70521BC708FE003E695B /* Assets.xcassets in Resources */,
-				24EB70501BC708FE003E695B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,31 +230,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24EB704D1BC708FE003E695B /* ViewController.swift in Sources */,
+				246836AD1BC8054C0088C7A4 /* HomeTableViewController.swift in Sources */,
+				246836B31BC8057B0088C7A4 /* ProfileTableViewController.swift in Sources */,
+				246836B71BC8064F0088C7A4 /* MainTabBarController.swift in Sources */,
+				246836B11BC8056F0088C7A4 /* MessageTableViewController.swift in Sources */,
+				246836B51BC8058B0088C7A4 /* DiscoverTableViewController.swift in Sources */,
 				24EB704B1BC708FE003E695B /* AppDelegate.swift in Sources */,
+				2480BBFE1BC819980028FBCA /* TSZTabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		24EB704E1BC708FE003E695B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				24EB704F1BC708FE003E695B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		24EB70531BC708FE003E695B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				24EB70541BC708FE003E695B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		24EB70571BC708FE003E695B /* Debug */ = {
@@ -248,6 +330,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				INFOPLIST_FILE = "天下微博/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tsz.----";
@@ -259,6 +342,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				INFOPLIST_FILE = "天下微博/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tsz.----";
@@ -285,6 +369,7 @@
 				24EB705B1BC708FE003E695B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
